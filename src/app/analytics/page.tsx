@@ -21,6 +21,8 @@ import {
   Loader2,
 } from "lucide-react";
 
+export const dynamic = "force-dynamic";
+
 const TIME_RANGES = ["24h", "7d", "30d", "All"];
 
 type AnalyticsData = {
