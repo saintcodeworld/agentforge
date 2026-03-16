@@ -12,7 +12,7 @@ export function Footer() {
           <div className="space-y-4">
             <div className="flex items-center gap-2">
               <div className="w-8 h-8 rounded-lg overflow-hidden flex items-center justify-center">
-                <Image src="/2026-03-16 21.17.27.jpg" alt="Logo" width={32} height={32} className="object-cover w-full h-full" />
+                <Image src="/logo.jpg" alt="Logo" width={32} height={32} className="object-cover w-full h-full" />
               </div>
               <span className="text-lg font-bold gradient-text">AgentForge</span>
             </div>
