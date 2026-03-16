@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -11,7 +11,6 @@ import {
   TrendingDown,
   Coins,
   Users,
-  BarChart3,
   Clock,
   ArrowUpRight,
   ArrowDownRight,
@@ -54,7 +53,7 @@ type AnalyticsData = {
   }>;
 };
 
-export default function AnalyticsPage() {
+function AnalyticsContent() {
   const searchParams = useSearchParams();
   const agentId = searchParams.get("agent");
   const [timeRange, setTimeRange] = useState("7d");
@@ -353,5 +352,17 @@ export default function AnalyticsPage() {
         ) : null}
       </div>
     </div>
+  );
+}
+
+export default function AnalyticsPage() {
+  return (
+    <Suspense fallback={
+      <div className="min-h-screen pt-20 pb-12 flex items-center justify-center">
+        <Loader2 className="w-8 h-8 animate-spin text-primary" />
+      </div>
+    }>
+      <AnalyticsContent />
+    </Suspense>
   );
 }
