@@ -5,10 +5,16 @@ export type AvatarConfig = {
   style: string;
   backgroundColor: string;
   accentColor: string;
+  primaryColor: string;
+  secondaryColor: string;
   shape: string;
   expression: string;
   accessory: string;
   pattern: string;
+  bodyType: string;
+  headShape: string;
+  eyeStyle: string;
+  particleEffect: string;
   imageDataUrl?: string;
 };
 
@@ -73,10 +79,16 @@ const defaultAvatar: AvatarConfig = {
   style: "pixel",
   backgroundColor: "#6366f1",
   accentColor: "#a855f7",
+  primaryColor: "#6366f1",
+  secondaryColor: "#a855f7",
   shape: "circle",
   expression: "happy",
   accessory: "none",
   pattern: "solid",
+  bodyType: "humanoid",
+  headShape: "round",
+  eyeStyle: "glowing",
+  particleEffect: "none",
   imageDataUrl: undefined,
 };
 
