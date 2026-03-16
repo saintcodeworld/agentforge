@@ -15,6 +15,7 @@ export type AvatarConfig = {
   headShape: string;
   eyeStyle: string;
   particleEffect: string;
+  animation: string;
   imageDataUrl?: string;
 };
 
@@ -89,6 +90,7 @@ const defaultAvatar: AvatarConfig = {
   headShape: "round",
   eyeStyle: "glowing",
   particleEffect: "none",
+  animation: "idle",
   imageDataUrl: undefined,
 };
 
