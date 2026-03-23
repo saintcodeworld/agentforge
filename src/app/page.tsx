@@ -25,8 +25,8 @@ import {
 const FEATURES = [
   {
     icon: Palette,
-    title: "3D Avatar Studio",
-    description: "Design unique 3D characters for your agent. Humanoid, robot, animal, or abstract — fully customizable.",
+    title: "2D Avatar Studio",
+    description: "Design unique 2D characters for your agent. Humanoid, robot, animal, or abstract — fully customizable.",
     color: "text-primary",
     bg: "bg-primary/10",
   },
@@ -68,7 +68,7 @@ const FEATURES = [
 ];
 
 const STEPS_INFO = [
-  { num: "01", title: "Design Your Agent", desc: "Customize 3D avatar, personality archetype, and communication tone." },
+  { num: "01", title: "Design Your Agent", desc: "Customize 2D avatar, personality archetype, and communication tone." },
   { num: "02", title: "Configure Skills", desc: "Pick from templates or describe what you want in plain English." },
   { num: "03", title: "Set Tokenomics", desc: "Name your token, set buyback/burn %, and initial dev buy amount." },
   { num: "04", title: "Connect X Account", desc: "Set up autonomous posting, join the Agent Hive community." },
@@ -96,12 +96,12 @@ export default function HomePage() {
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
             <span className="gradient-text">Launch AI Agents</span>
             <br />
-            <span className="text-foreground">with 3D Avatars &amp; Token Economics</span>
+            <span className="text-foreground">with 2D Avatars &amp; Token Economics</span>
           </h1>
 
           <p className="text-lg sm:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
             PumpFun launches the token. <span className="text-foreground font-medium">We launch the agent.</span>{" "}
-            Design in 3D, configure skills, automate X, and deploy — all in one click.
+            Design in 2D, configure skills, automate X, and deploy — all in one click.
           </p>
 
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
@@ -254,7 +254,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-left">
             {[
               { pain: "No agent builder on PumpFun", solution: "Full no-code creation wizard" },
-              { pain: "No visual identity", solution: "3D avatar studio + embeddable widget" },
+              { pain: "No visual identity", solution: "2D avatar studio + embeddable widget" },
               { pain: "Must write skills.md manually", solution: "AI-powered generation + templates" },
               { pain: "No analytics post-launch", solution: "Real-time burn & revenue dashboard" },
               { pain: "No social automation", solution: "Autonomous X account + Agent Hive" },

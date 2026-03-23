@@ -2,7 +2,7 @@
 
 ## What Is AgentForge?
 
-AgentForge is an **AI Agent Launchpad** that acts as a bridge between creators and PumpFun's Tokenized Agent infrastructure. It lets anyone design, configure, and deploy a fully functional AI agent — complete with a 3D avatar, autonomous social media presence, and token economics — without writing a single line of code.
+AgentForge is an **AI Agent Launchpad** that acts as a bridge between creators and PumpFun's Tokenized Agent infrastructure. It lets anyone design, configure, and deploy a fully functional AI agent — complete with a 2D avatar, autonomous social media presence, and token economics — without writing a single line of code.
 
 **Tagline:** _"PumpFun launches the token. We launch the agent."_
 
@@ -24,7 +24,7 @@ AgentForge fills every one of these gaps.
 | Layer | Technology |
 |-------|-----------|
 | Frontend | Next.js 14+ (App Router), TailwindCSS, React Three Fiber |
-| 3D Engine | Three.js via @react-three/fiber + @react-three/drei |
+| 2D Engine | HTML5 Canvas |
 | State | Zustand |
 | UI Components | Custom components (button, card, input, slider, badge) |
 | Blockchain | @solana/web3.js, @solana/wallet-adapter-react |
@@ -55,7 +55,7 @@ agent-forge/
 │   │   ├── ui/                    # Reusable UI primitives
 │   │   ├── layout/                # Navbar, Footer
 │   │   ├── providers/             # Wallet provider
-│   │   ├── three/                 # 3D avatar scene (R3F)
+│   │   ├── two-d/                 # 2D avatar renderer (Canvas)
 │   │   └── launch/                # Launch wizard step components
 │   └── lib/
 │       ├── constants.ts           # Platform config, skill templates, colors

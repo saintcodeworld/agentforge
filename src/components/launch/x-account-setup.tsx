@@ -245,7 +245,7 @@ export function XAccountSetup() {
             <ol className="text-xs text-muted-foreground space-y-2 list-decimal list-inside">
               <li>Create an X account with your chosen username</li>
               <li>Click &ldquo;Connect X Account&rdquo; below to authorize via OAuth</li>
-              <li>We set the profile picture (rendered from your 3D avatar) and bio</li>
+              <li>We set the profile picture (rendered from your 2D avatar) and bio</li>
               <li>The agent takes full control — no human posting allowed</li>
               <li>You can adjust settings anytime from your dashboard</li>
             </ol>

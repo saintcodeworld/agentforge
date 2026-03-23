@@ -45,7 +45,7 @@ export function AvatarStudio() {
 
       <div className="grid grid-cols-1 lg:grid-cols-[1fr,1fr] gap-6">
         {/* 2D Preview */}
-        <div className="space-y-3">
+        <div className="space-y-3 pb-4">
           <Avatar2D config={avatar} onImageGenerated={handleImageGenerated} />
           <div className="flex items-center justify-between">
             <p className="text-xs text-muted-foreground">Your avatar is automatically saved</p>

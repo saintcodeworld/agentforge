@@ -17,7 +17,7 @@ export function Footer() {
               <span className="text-lg font-bold gradient-text">AgentForge</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              Launch AI agents with 3D avatars, autonomous X accounts, and PumpFun tokenized economics.
+              Launch AI agents with 2D avatars, autonomous X accounts, and PumpFun tokenized economics.
             </p>
           </div>
 

@@ -38,7 +38,7 @@ export default function DocsPage() {
             <span className="gradient-text">AgentForge</span> Documentation
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Complete guide to building, deploying, and managing AI agents with 3D avatars, autonomous X accounts, and tokenized economics on Solana.
+            Complete guide to building, deploying, and managing AI agents with 2D avatars, autonomous X accounts, and tokenized economics on Solana.
           </p>
         </div>
 
@@ -75,7 +75,7 @@ export default function DocsPage() {
           <Card className="p-6 mb-6">
             <h3 className="text-xl font-semibold mb-3">What Is AgentForge?</h3>
             <p className="text-muted-foreground mb-4">
-              AgentForge is an <strong>AI Agent Launchpad</strong> that acts as a bridge between creators and PumpFun's Tokenized Agent infrastructure. It lets anyone design, configure, and deploy a fully functional AI agent — complete with a 3D avatar, autonomous social media presence, and token economics — without writing a single line of code.
+              AgentForge is an <strong>AI Agent Launchpad</strong> that acts as a bridge between creators and PumpFun's Tokenized Agent infrastructure. It lets anyone design, configure, and deploy a fully functional AI agent — complete with a 2D avatar, autonomous social media presence, and token economics — without writing a single line of code.
             </p>
             <div className="bg-primary/5 border border-primary/20 rounded-lg p-4">
               <p className="text-sm font-medium">
@@ -138,7 +138,7 @@ export default function DocsPage() {
               <ul className="space-y-2 text-sm text-muted-foreground">
                 <li><strong>Framework:</strong> Next.js 16+ (App Router)</li>
                 <li><strong>Styling:</strong> TailwindCSS 4</li>
-                <li><strong>3D Engine:</strong> Three.js via @react-three/fiber + @react-three/drei</li>
+                <li><strong>2D Engine:</strong> HTML5 Canvas</li>
                 <li><strong>State Management:</strong> Zustand</li>
                 <li><strong>Animations:</strong> Framer Motion</li>
                 <li><strong>UI Components:</strong> Custom components (button, card, input, slider, badge)</li>

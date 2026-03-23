@@ -284,7 +284,7 @@ export default function DashboardPage() {
                 <Rocket className="w-12 h-12 text-muted-foreground mx-auto mb-4" />
                 <h3 className="text-lg font-semibold mb-2">No agents yet</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Launch your first AI agent with a 3D avatar and PumpFun tokenized economics.
+                  Launch your first AI agent with a 2D avatar and PumpFun tokenized economics.
                 </p>
                 <Link href="/launch">
                   <Button>
