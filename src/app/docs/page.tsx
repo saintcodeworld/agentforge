@@ -584,7 +584,7 @@ export default function DocsPage() {
                 Join our community on X, check out the GitHub repository, or reach out to our support team.
               </p>
               <div className="flex flex-wrap items-center justify-center gap-4">
-                <Link href="https://x.com/AgentForge2026" target="_blank">
+                <Link href="https://x.com/AgentForgeTech" target="_blank">
                   <Badge variant="default" className="cursor-pointer hover:bg-primary/90">
                     <Twitter className="w-3 h-3 mr-1" />
                     Follow on X

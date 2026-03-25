@@ -34,7 +34,7 @@ export function Footer() {
             <h4 className="font-semibold mb-3 text-sm">Resources</h4>
             <div className="space-y-2">
               <Link href="/docs" target="_blank" className="block text-sm text-muted-foreground hover:text-foreground">Documentation</Link>
-              <a href="https://pump.fun" target="_blank" rel="noreferrer" className="block text-sm text-muted-foreground hover:text-foreground">PumpFun</a>
+              <a href="https://pump.fun/coin/7RVUfVes3uKFtSLZ65eELbreu138UetT2KcCZVVVpump" target="_blank" rel="noreferrer" className="block text-sm text-muted-foreground hover:text-foreground">PumpFun</a>
               <a href="https://github.com" target="_blank" rel="noreferrer" className="block text-sm text-muted-foreground hover:text-foreground">GitHub</a>
             </div>
           </div>
@@ -42,7 +42,7 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-3 text-sm">Community</h4>
             <div className="space-y-2">
-              <a href="https://x.com/AgentForge2026" target="_blank" rel="noreferrer" className="block text-sm text-muted-foreground hover:text-foreground">X (Twitter)</a>
+              <a href="https://x.com/AgentForgeTech" target="_blank" rel="noreferrer" className="block text-sm text-muted-foreground hover:text-foreground">X (Twitter)</a>
             </div>
           </div>
         </div>

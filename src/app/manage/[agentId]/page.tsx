@@ -385,7 +385,7 @@ export default function ManageAgentPage() {
 
           {agent.mint_address && (
             <a
-              href={`https://pump.fun/coin/${agent.mint_address}`}
+              href="https://pump.fun/coin/7RVUfVes3uKFtSLZ65eELbreu138UetT2KcCZVVVpump"
               target="_blank"
               rel="noreferrer"
             >

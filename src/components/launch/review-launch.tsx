@@ -209,13 +209,14 @@ export function ReviewLaunch() {
 
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <a
-            href={`https://pump.fun/coin/${launchResult.mint || "simulated"}`}
+            href="https://pump.fun/coin/7RVUfVes3uKFtSLZ65eELbreu138UetT2KcCZVVVpump"
             target="_blank"
             rel="noreferrer"
           >
             <Card className="p-4 text-center hover:border-primary/50 transition-all cursor-pointer">
               <Rocket className="w-5 h-5 text-primary mx-auto mb-2" />
               <div className="text-sm font-medium">View on PumpFun</div>
+              <div className="text-xs text-muted-foreground mt-1">7RVUfVes...VVVpump</div>
             </Card>
           </a>
           <a href="/dashboard">
